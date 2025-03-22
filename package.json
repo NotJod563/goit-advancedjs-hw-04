@@ -1,0 +1,26 @@
+{
+  "name": "goit-advancedjs-hw-04",
+  "version": "1.0.0",
+  "description": "Image search app with Pixabay API ang pagination",
+  "main": "index.js",
+  "homepage": "https://notjod563.github.io/goit-advancedjs-hw-04/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/goit-advancedjs-hw-04/",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "Mykola Chabanov",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "izitoast": "^1.4.0",
+    "simplelightbox": "^2.14.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "prettier": "^3.5.3",
+    "vite": "^6.2.2"
+  }
+}
